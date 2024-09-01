@@ -1,2 +1,5 @@
 client_secret_*
-
+token.json
+credentials.json
+events/sfs_extracted_concerts_data.json
+daily_concert_sync.log
