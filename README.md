@@ -1,6 +1,8 @@
 # Bay Area Classical Concert Sync
 
-This project automates the synchronization of classical concert events from the San Francisco Symphony website to a Google Calendar. It consists of two Python scripts: `sfs-dump-and-parse.py` to fetch and parse concert data, and `sync-to-gcal.py` to update the events in Google Calendar.
+This project automates the synchronization of classical concert events from the San Francisco Symphony and Cal Performances websites to a Google Calendar. It consists of two Python scripts: `sfs-dump-and-parse.py` to fetch and parse concert data, and `sync-to-gcal.py` to update the events in Google Calendar.
+
+NOTE: You do NOT need to run this yourself, I run this daily and keep a public Google Calendar up to date. You can view the calendar int he brwoser by [clicking here](https://calendar.google.com/calendar/embed?src=c_b816af4191ec6450b0be043156234fe75768489d1b660fce6d8fd745012dd2b9%40group.calendar.google.com&ctz=America%2FLos_Angeles), and you can add it as an overlay to your own Google Calendar by [clicking here](https://calendar.google.com/calendar/u/1?cid=Y19iODE2YWY0MTkxZWM2NDUwYjBiZTA0MzE1NjIzNGZlNzU3Njg0ODlkMWI2NjBmY2U2ZDhmZDc0NTAxMmRkMmI5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 ## Project Overview
 
@@ -83,5 +85,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Thanks to the SF Symphony for providing access to their concert data.
+- Thanks to the SF Symphony and Cal Performances for providing access to their concert data.
 - Built using the Google Calendar API for seamless event synchronization.
